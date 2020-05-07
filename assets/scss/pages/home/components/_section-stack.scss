@@ -1,6 +1,6 @@
-.s-pricing {
-  background-color: $color-fourth;
-  @include element("topic") {
+.stack {
+  background-color: $color-third;
+  @include element("title") {
     padding: {
       top: 32px;
       bottom: 32px;
@@ -13,13 +13,35 @@
     }
   }
 
-  @include element("row") {
+  @include element("items") {
+    display: block;
     text-align: center;
-    @include screen-media("tablet-large") {
+    @include screen-media("tablet") {
       display: flex;
-      margin-left: -16px;
-      margin-right: -16px;
       flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @include element("item") {
+    padding: {
+      right: 0;
+      left: 0;
+    }
+    @include screen-media("tablet") {
+      padding: {
+        right: 24px;
+        left: 24px;
+      }
+    }
+  }
+
+  @include element("img") {
+    border-radius: 50%;
+    width: 300px;
+    @include screen-media("tablet") {
+      display: flex;
+      flex-wrap: wrap;
+      width: 200px;
     }
   }
   @include element("column") {
