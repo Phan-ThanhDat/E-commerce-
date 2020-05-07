@@ -300,21 +300,49 @@ https://www.figma.com/file/fyN3JrM4xQQJpD7TWwvmTg/frame?node-id=0%3A1
         </div>
       </section>
 
-      <!-- <h4>Titile of slide shows of form</h4>
-        <section class="main-form">
-          <form>
-            <input type="text" id="fname" name="fname" /><br /><br />
-            <input type="text" id="lname" name="lname" /><br /><br />
-            <textarea name="comment">
-              Enter text here...
-              </textarea
-            >
-            <input type="button" value="Start machine" role="button" />
-          </form>
-        </section>
-      </main>
-
-      <hr />
+      <section class="form">
+        <h4 class="form__title">Contact me</h4>
+        <form class="view-range form__wrapper">
+          <div class="form__group" role="form group">
+            <label id="fName" for="fname">
+              First Name
+            </label>
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              aria-labelledby="fName"
+            />
+          </div>
+          <div class="form__group" role="form group">
+            <label id="lName" for="lname">
+              Last Name
+            </label>
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              aria-labelledby="lName"
+            />
+          </div>
+          <div class="form__group" role="form group">
+            <label id="form-message" for="fmessage">
+              Message
+            </label>
+            <textarea
+              type="text"
+              name="fmessage"
+              id="fmessage"
+              aria-labelledby="form-message"
+            ></textarea>
+          </div>
+          <div class="form__wrapper-btn" aria-labelledby="btn-fsubmit">
+            <button id="btn-fsubmit" class="btn btn--ghost form__btn-submit">
+              Submit
+            </button>
+          </div>
+        </form>
+      </section>
 
       <footer>
         <div><p>this is a fotter</p></div>
@@ -323,7 +351,7 @@ https://www.figma.com/file/fyN3JrM4xQQJpD7TWwvmTg/frame?node-id=0%3A1
           <div><i class="fab fa-react" aria-hidden="true"></i></div>
           <div><i class="fab fa-sass" aria-hidden="true"></i></div>
         </div>
-      </footer> -->
+      </footer>
     </div>
 
     <!-- these Icons can be used for the tech stack banner -->

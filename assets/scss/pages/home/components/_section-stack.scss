@@ -33,6 +33,16 @@
         left: 24px;
       }
     }
+
+    &:hover {
+      cursor: -webkit-grabbing;
+      cursor: grabbing;
+      transition: 0.3s;
+    }
+    &:active {
+      opacity: 0;
+      transition: 0.3s;
+    }
   }
 
   @include element("img") {

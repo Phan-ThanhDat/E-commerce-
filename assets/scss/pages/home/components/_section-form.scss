@@ -1,0 +1,57 @@
+.form {
+  background-color: $color-third;
+  padding-bottom: 48px;
+  @include element("title") {
+    padding: {
+      top: 16px;
+      bottom: 16px;
+    }
+    text-align: center;
+    font-size: 40px;
+    color: $color-primary;
+    @include screen-media("tablet-large") {
+      font-size: 65px;
+    }
+  }
+
+  @include element("group") {
+    display: flex;
+    flex-direction: column;
+    & input,
+    textarea {
+      border: 1px solid $color-body;
+      width: 50%;
+      height: 32px;
+    }
+    & label {
+      font-weight: bold;
+      margin: {
+        top: 24px;
+        bottom: 8px;
+      }
+    }
+  }
+
+  @include element("input") {
+    @include screen-media("tablet") {
+      width: 240px;
+    }
+  }
+
+  @include element("wrapper-btn") {
+    padding-top: 24px;
+  }
+
+  @include element("btn-submit") {
+    font-size: 20px;
+    border: 1px solid $color-body;
+    display: inline-block;
+    color: $color-primary;
+    background-color: $color-fourth;
+    border-radius: 10px;
+    font-weight: bold;
+    @include screen-media("tablet-large") {
+      margin-bottom: 50px;
+    }
+  }
+}

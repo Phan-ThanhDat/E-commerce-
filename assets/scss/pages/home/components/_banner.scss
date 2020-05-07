@@ -71,5 +71,14 @@
     @include screen-media("tablet-large") {
       margin-bottom: 50px;
     }
+    &:hover {
+      cursor: -webkit-grabbing;
+      cursor: grabbing;
+      color: $color-purple;
+    }
+    &:active {
+      color: $color-primary;
+      opacity: 0;
+    }
   }
 }
