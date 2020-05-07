@@ -1,0 +1,70 @@
+.banner {
+  display: block;
+  padding: {
+    top: 40px;
+    bottom: 40px;
+  }
+
+  @include screen-media("desktop") {
+    min-height: 700px;
+    display: flex;
+    justify-content: space-between;
+
+    padding: {
+      top: 120px;
+      bottom: 120px;
+    }
+  }
+
+  @include element("content") {
+    margin-bottom: 48px;
+    @include screen-media("desktop") {
+      padding-right: 32px;
+      margin-bottom: 0;
+    }
+  }
+
+  @include element("title") {
+    padding: {
+      top: 0;
+      bottom: 50px;
+    }
+    margin: 0;
+    font-size: 40px;
+    color: $color-primary;
+    font-weight: bolder;
+
+    & > span {
+      color: $color-primary;
+    }
+
+    @include screen-media("desktop") {
+      padding-bottom: 50px;
+      font-size: 65px;
+    }
+  }
+
+  @include element("text") {
+    margin: 0;
+    color: $color-second;
+    font-weight: bold;
+    padding-top: 0;
+    padding-bottom: 50px;
+    font-size: 20px;
+  }
+
+  @include element("img") {
+    width: 480px;
+  }
+
+  @include element("btn") {
+    font-size: 20px;
+    display: inline-block;
+    color: $color-primary;
+    font-weight: bold;
+    border: 2px solid $color-primary;
+    @include screen-media("desktop") {
+      margin-bottom: 50px;
+    }
+  }
+}
