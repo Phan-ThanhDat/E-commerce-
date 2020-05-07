@@ -1,0 +1,74 @@
+.s-pricing {
+  background-color: $color-fourth;
+  @include element("topic") {
+    padding: {
+      top: 32px;
+      bottom: 32px;
+    }
+    text-align: center;
+    font-size: 32px;
+    color: $color-primary;
+  }
+
+  @include element("row") {
+    text-align: center;
+    @include screen-media("tablet-large") {
+      display: flex;
+      margin-left: -16px;
+      margin-right: -16px;
+      flex-wrap: wrap;
+    }
+  }
+  @include element("column") {
+    background-color: $color-third;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  @include element("type") {
+    font-size: 24px;
+  }
+  @include element("cover") {
+    width: 100%;
+    background-color: $color-fourth;
+    padding-bottom: 40px;
+    padding-top: 32px;
+    @include screen-media("tablet-large") {
+      width: 50%;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+  @include element("cost") {
+    color: $color-primary;
+    font-size: 30px;
+    font-weight: bold;
+    & span {
+      font-size: 8px;
+      font-weight: 400;
+    }
+  }
+  @include element("line") {
+    background-color: $color-primary;
+    width: 70%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @include element("inf") {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    & > p {
+    }
+  }
+  @include element("btn") {
+    font-size: 20px;
+    display: inline-block;
+    color: $color-primary;
+    font-weight: bold;
+    border: 2px solid $color-primary;
+    margin: 10px;
+    padding: 8px;
+  }
+}

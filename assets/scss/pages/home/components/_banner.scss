@@ -5,7 +5,7 @@
     bottom: 40px;
   }
 
-  @include screen-media("desktop") {
+  @include screen-media("tablet-large") {
     min-height: 700px;
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@
 
   @include element("content") {
     margin-bottom: 48px;
-    @include screen-media("desktop") {
+    @include screen-media("tablet-large") {
       padding-right: 32px;
       margin-bottom: 0;
     }
@@ -38,7 +38,7 @@
       color: $color-primary;
     }
 
-    @include screen-media("desktop") {
+    @include screen-media("tablet-large") {
       padding-bottom: 50px;
       font-size: 65px;
     }
@@ -54,7 +54,13 @@
   }
 
   @include element("img") {
-    width: 480px;
+    width: 360px;
+    @include screen-media("tablet") {
+      width: 420px;
+    }
+    @include screen-media("tablet-large") {
+      width: 520px;
+    }
   }
 
   @include element("btn") {
@@ -63,7 +69,7 @@
     color: $color-primary;
     font-weight: bold;
     border: 2px solid $color-primary;
-    @include screen-media("desktop") {
+    @include screen-media("tablet-large") {
       margin-bottom: 50px;
     }
   }

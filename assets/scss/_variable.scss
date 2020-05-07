@@ -2,20 +2,23 @@
 $color-primary: #f44336;
 $color-second: #666;
 $color-body: #333;
+$color-third: #fff;
+$color-fourth: #f7f7f7;
 
 // FONTS
 $fontsize-body: 15px;
-$font-family: 'Raleway',
-sans-serif;
+$font-family: "Raleway", sans-serif;
 
 //view range
-$view-ranges: (tablet: 750px,
+$view-ranges: (
+  tablet: 750px,
   tablet-large: 970px,
   desktop: 1170px,
 );
 
 // Screen Size
-$screen-sizes: (desktop: 1280px,
+$screen-sizes: (
+  desktop: 1280px,
   tablet: 768px,
-  tablet-large: 992px,
+  tablet-large: 1024px,
 );

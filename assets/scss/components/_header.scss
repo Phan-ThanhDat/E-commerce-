@@ -21,7 +21,7 @@
     border: 1px solid $color-second;
     padding: 4px 8px 4px 8px;
 
-    @include screen-media("tablet") {
+    @include screen-media("tablet-large") {
       border: none;
     }
   }
@@ -30,7 +30,7 @@
 .nav {
   @include element("item-icon") {
     display: none;
-    @include screen-media("desktop") {
+    @include screen-media("tablet-large") {
       display: inline-block;
       font-size: 14px;
       color: #fff;
@@ -40,7 +40,7 @@
     font-size: 25px;
     color: $color-second;
 
-    @include screen-media("tablet") {
+    @include screen-media("tablet-large") {
       display: none;
     }
   }
@@ -48,7 +48,7 @@
   @include modifier("desktop") {
     display: none;
 
-    @include screen-media("tablet") {
+    @include screen-media("tablet-large") {
       display: flex;
       margin-right: -15px;
     }
