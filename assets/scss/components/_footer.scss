@@ -1,0 +1,49 @@
+.wrapper-footer {
+  background-color: $color-fourth;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: {
+    top: 24px;
+    bottom: 24px;
+  }
+
+  @include element("contact") {
+    text-decoration: none;
+    font-weight: 600;
+    color: $color-body;
+    font-size: 18px;
+    &:hover {
+      cursor: -webkit-grabbing;
+      cursor: grabbing;
+      color: $color-purple;
+    }
+    &:active {
+      color: $color-primary;
+      opacity: 0;
+    }
+  }
+
+  @include element("nav") {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 32px;
+    & > div {
+      padding-left: 48px;
+      &:hover {
+        cursor: -webkit-grabbing;
+        cursor: grabbing;
+        color: $color-purple;
+      }
+      &:active {
+        color: $color-primary;
+        opacity: 0;
+      }
+    }
+  }
+
+  @include element("copyright") {
+    text-align: center;
+  }
+}
