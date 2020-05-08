@@ -1,5 +1,6 @@
 .banner {
   display: block;
+  text-align: center;
   padding: {
     top: 40px;
     bottom: 40px;
@@ -30,7 +31,7 @@
       bottom: 50px;
     }
     margin: 0;
-    font-size: 40px;
+    font-size: $size-title-small;
     color: $color-primary;
     font-weight: bolder;
 
@@ -40,7 +41,7 @@
 
     @include screen-media("tablet-large") {
       padding-bottom: 50px;
-      font-size: 65px;
+      font-size: $size-title-normal;
     }
   }
 
@@ -49,7 +50,7 @@
     color: $color-second;
     padding-top: 0;
     padding-bottom: 50px;
-    font-size: 20px;
+    font-size: $size-quite-big;
   }
 
   @include element("img") {
@@ -63,7 +64,7 @@
   }
 
   @include element("btn") {
-    font-size: 20px;
+    font-size: $size-quite-big;
     display: inline-block;
     color: $color-primary;
     font-weight: bold;

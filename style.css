@@ -2,7 +2,7 @@
   background-color: red;
 }
 .header__logo > a {
-  font-size: 25px;
+  font-size: 24px;
   text-decoration: none;
   font-weight: bold;
   color: #fff;
@@ -37,7 +37,7 @@
 }
 
 .nav--mobile {
-  font-size: 25px;
+  font-size: 24px;
   color: #666;
 }
 @media screen and (min-width: 1024px) {
@@ -124,6 +124,7 @@
 
 .banner {
   display: block;
+  text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -150,7 +151,7 @@
   padding-top: 0;
   padding-bottom: 50px;
   margin: 0;
-  font-size: 40px;
+  font-size: 42px;
   color: #f44336;
   font-weight: bolder;
 }
@@ -160,7 +161,7 @@
 @media screen and (min-width: 1024px) {
   .banner__title {
     padding-bottom: 50px;
-    font-size: 65px;
+    font-size: 48px;
   }
 }
 
@@ -169,7 +170,7 @@
   color: #666;
   padding-top: 0;
   padding-bottom: 50px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .banner__img {
@@ -187,7 +188,7 @@
 }
 
 .banner__btn {
-  font-size: 20px;
+  font-size: 18px;
   display: inline-block;
   color: #f44336;
   font-weight: bold;
@@ -215,12 +216,12 @@
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
-  font-size: 40px;
+  font-size: 42px;
   color: #f44336;
 }
 @media screen and (min-width: 1024px) {
   .stack__title {
-    font-size: 65px;
+    font-size: 48px;
   }
 }
 
@@ -295,11 +296,11 @@
 
 .stack__cost {
   color: #f44336;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
 }
 .stack__cost span {
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 400;
 }
 
@@ -317,7 +318,7 @@
   justify-content: center;
 }
 .stack__btn {
-  font-size: 20px;
+  font-size: 18px;
   display: inline-block;
   color: #f44336;
   font-weight: bold;
@@ -334,12 +335,12 @@
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
-  font-size: 40px;
+  font-size: 42px;
   color: #f44336;
 }
 @media screen and (min-width: 1024px) {
   .blogs__title {
-    font-size: 65px;
+    font-size: 48px;
   }
 }
 
@@ -386,11 +387,11 @@
 }
 
 .blog__title {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .blog__published {
-  font-size: 12px;
+  font-size: 14px;
   color: #9c69e2;
 }
 
@@ -421,12 +422,12 @@
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
-  font-size: 40px;
+  font-size: 42px;
   color: #f44336;
 }
 @media screen and (min-width: 1024px) {
   .s-pricing__topic {
-    font-size: 65px;
+    font-size: 48px;
   }
 }
 
@@ -469,11 +470,11 @@
 
 .s-pricing__cost {
   color: #f44336;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
 }
 .s-pricing__cost span {
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 400;
 }
 
@@ -491,7 +492,7 @@
   justify-content: center;
 }
 .s-pricing__btn {
-  font-size: 20px;
+  font-size: 18px;
   display: inline-block;
   color: #f44336;
   font-weight: bold;
@@ -517,12 +518,12 @@
   padding-top: 16px;
   padding-bottom: 16px;
   text-align: center;
-  font-size: 40px;
+  font-size: 42px;
   color: #f44336;
 }
 @media screen and (min-width: 1024px) {
   .form__title {
-    font-size: 65px;
+    font-size: 48px;
   }
 }
 
@@ -553,7 +554,7 @@
 }
 
 .form__btn-submit {
-  font-size: 20px;
+  font-size: 24px;
   border: 1px solid #333;
   display: inline-block;
   color: #f44336;

@@ -7,10 +7,10 @@
       bottom: 32px;
     }
     text-align: center;
-    font-size: 40px;
+    font-size: $size-title-small;
     color: $color-primary;
     @include screen-media("tablet-large") {
-      font-size: 65px;
+      font-size: $size-title-normal;
     }
   }
 
@@ -54,19 +54,19 @@
     }
   }
   @include element("title") {
-    font-size: 20px;
+    font-size: $size-large;
   }
   @include element("published") {
-    font-size: 12px;
+    font-size: $size-small;
     color: $color-purple;
   }
   @include element("description") {
-    font-size: 16px;
+    font-size: $size-normal;
     color: $color-second;
   }
 
   @include element("link") {
-    font-size: 16px;
+    font-size: $size-normal;
     font-weight: bold;
     text-decoration: none;
     &:hover {

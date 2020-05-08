@@ -3,7 +3,7 @@
 
   @include element("logo") {
     & > a {
-      font-size: 25px;
+      font-size: $size-large;
       text-decoration: none;
       font-weight: bold;
       color: $color-third;
@@ -32,12 +32,12 @@
     display: none;
     @include screen-media("tablet-large") {
       display: inline-block;
-      font-size: 14px;
+      font-size: $size-small;
       color: #fff;
     }
   }
   @include modifier("mobile") {
-    font-size: 25px;
+    font-size: $size-large;
     color: $color-second;
 
     @include screen-media("tablet-large") {
@@ -63,7 +63,7 @@
     padding-left: 15px;
     padding-right: 15px;
     list-style-type: none;
-    font-size: 14px;
+    font-size: $size-small;
 
     & > a {
       text-decoration: none;

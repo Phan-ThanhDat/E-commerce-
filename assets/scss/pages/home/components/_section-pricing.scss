@@ -6,10 +6,10 @@
       bottom: 32px;
     }
     text-align: center;
-    font-size: 40px;
+    font-size: $size-title-small;
     color: $color-primary;
     @include screen-media("tablet-large") {
-      font-size: 65px;
+      font-size: $size-title-normal;
     }
   }
 
@@ -29,7 +29,7 @@
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
   @include element("type") {
-    font-size: 24px;
+    font-size: $size-large;
   }
   @include element("cover") {
     width: 100%;
@@ -44,10 +44,10 @@
   }
   @include element("cost") {
     color: $color-primary;
-    font-size: 30px;
+    font-size: $size-very-big;
     font-weight: bold;
     & span {
-      font-size: 8px;
+      font-size: $size-tiny;
       font-weight: 400;
     }
   }
@@ -66,7 +66,7 @@
     }
   }
   @include element("btn") {
-    font-size: 20px;
+    font-size: $size-quite-big;
     display: inline-block;
     color: $color-primary;
     font-weight: bold;
